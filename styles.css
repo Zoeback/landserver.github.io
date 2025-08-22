@@ -3,13 +3,8 @@ body {
     background: #f0f0b2
 }
 
-h1 {
-    color: #333;
-    text-align: center;
-}
-
 button {
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #cccc22;
     color: white;
     border: none;

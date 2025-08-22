@@ -3,12 +3,25 @@
         <title>Land Server</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" href="styles.css">
+        <style>
+            div.sticky {
+                position: -webkit-sticky; /* Safari */
+                position: sticky;
+                top: 0;
+                background-color: rgba(217, 223, 48, 0.497);
+                padding: 0px;
+                font-size: 20px;
+                cursor: pointer;
+                color: white;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <h1>欢迎来到Land服务器网站！</h1>
+        <div class="sticky"><strong>欢迎来到Land服务器网站</strong></div>
         <main>
             <button id="QQ" type="button" onclick="alert('主群：147275490\n审核群：249155665')">QQ群</button>
-            <button id="Bilibili" type="button" onclick="alert('https://space.bilibili.com/3546625001655249')">Bilibili</button>
+            <button id="Bilibili" type="button" onclick="alert('https://space.bilibili.com/3546625001655249')">B站</button>
         </main>
     <p>下面是<strong>宣传片III</strong>：</p>
     <video width="640" height="360" controls>
@@ -17,7 +30,7 @@
     <p> </p>
         <script>
             id="time";
-            document.write("当前时间：" + Date());
+            document.write("访问时间：" + Date());
         </script>
     </body>
 </html>
