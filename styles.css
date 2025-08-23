@@ -1,8 +1,3 @@
-body {
-    font-family: Arial;
-    background: #f0f0b2
-}
-
 button {
     padding: 10px 10px;
     background-color: #cccc22;
@@ -11,7 +6,9 @@ button {
     cursor: pointer;
 }
 
-time {
-    color: #333;
-    text-align: center;
+video {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ccc;
+    border-radius: 15px;
 }
